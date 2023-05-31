@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    align-items: center;
+}
+
+
+section {
+     width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+}
+
+
+.div-imagem img {
+    width: 50vw;
+    height: auto ;
+    margin-left: 30px;
+
+   
+}
+
+
+.div-imagem {
+    width: 50%;
+    height: 100vh;
+    background-color: #053155;
+    display: flex;
+     
+}
+
+
+.logo {
+    width: 273px;
+    height: 164px;
+
+}
+
+.label-input {
+    display: flex;
+    flex-direction: column;
+    
+
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+   
+    
+}
+
+input[type=email], input[type=password] {
+    width: 300px;
+    height: 40px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.entrar {
+    width: 300px;
+    height: 40px;
+    background: #1B77C2;
+    color: #ffff;
+    border: none;
+}
+
+.checkbox {
+    color: rgb(142, 155, 167);
+
+}
+
+.clica {
+    color: rgb(142, 155, 167);
+      top: 12px;
+    right: 15px;
+    
+}
+
+.dash {
+    color: #938686;
+    bottom: 0;
+    position: fixed;
+    width: 90%;
+    text-align: center;
+
+}
+
+.olho {
+    position: relative;
+}
+
+.olhinho {
+    position: absolute;
+    top: 12px;
+    right: 15px;
+    cursor: pointer;
+    width: 17px;
+}
