@@ -36,6 +36,7 @@ section {
     height: 100vh;
     background-color: #053155;
     display: flex;
+
      
 }
 
@@ -45,17 +46,21 @@ section {
     height: 164px;
 
 }
+.logo2 {
+    display: none;
+}
 
 .label-input {
     display: flex;
     flex-direction: column;
+    margin-top: 10px;
+    
     
 
 }
 form {
     display: flex;
     flex-direction: column;
-    align-items: end;
     font-weight: bold;
     font-family: 'Lato', sans-serif;
    
@@ -67,6 +72,7 @@ input[type=email], input[type=password] {
     height: 40px;
     margin-bottom: 10px;
     margin-top: 10px;
+
 }
 
 .entrar {
@@ -86,6 +92,7 @@ input[type=email], input[type=password] {
     color: rgb(142, 155, 167);
       top: 12px;
     right: 15px;
+    align-items: end;
     
 }
 
@@ -96,7 +103,7 @@ input[type=email], input[type=password] {
     width: 90%;
     text-align: center;
 
-}
+} 
 
 .olho {
     position: relative;
@@ -109,3 +116,47 @@ input[type=email], input[type=password] {
     cursor: pointer;
     width: 17px;
 }
+
+
+
+
+
+@media screen and (max-width: 796px) {
+    
+        .div-imagem {
+            display: none;
+           height: unset;
+        }
+
+        section {
+            width: 100%;
+            background-image: url(../img/fundomobile.png);
+            background-repeat: no-repeat;
+            background-size:  100% 70%;
+            
+            
+        }
+        .logo2 {
+            display: flex;
+
+            height: 30px;
+            width: 50%;
+
+
+        }
+        .logo {
+            display: none;
+        }
+    .olhinho {
+        top: 20px;
+    }
+    @media screen and (max-width: 400px) {
+    
+        .div-imagem {
+            height: 520px;
+            width: 50%;
+        }
+        
+ }
+}
+
